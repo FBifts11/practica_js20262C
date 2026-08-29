@@ -115,7 +115,7 @@ console.log(vendedor) */
 
 // VALOR Y REFERENCIA: PRIMITIVOS VS NO PRIMITIVOS
 
-let a = 10
+/* let a = 10
 
 let b = a
 
@@ -135,4 +135,25 @@ console.log('obj: ', obj, 'obj2: ', obj2)
 
 obj2.nombre = 'Juan'
 
-console.log('obj: ', obj, 'obj2: ', obj2)
+console.log('obj: ', obj, 'obj2: ', obj2) */
+
+// Objetos dentro de Tempalates literales
+
+let nombre = "Marta"
+
+console.log(`El nombre es ${nombre}`)
+
+let numero =  2
+
+console.log("El numero es", numero)
+console.log(`El numero es ${numero}`)
+
+let obj= {edad: 35}
+
+console.log(obj)
+console.log(`El objeto es ${obj}`)
+console.log("Mi objeto es:", obj)
+console.log(`La edad del objeto es ${obj.edad}`)
+
+console.log(`obj: ${JSON.stringify(obj)}`)
+
